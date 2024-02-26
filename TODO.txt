@@ -1,1 +1,0 @@
-Il setup.exe funziona, ma l'exe del programma non trova il file win11.py e quindi non funziona, ma se lo avvio con python funziona, ma solo una volta, la volta dopo che cambia la canzone va in loop e manda notifiche in loop.
