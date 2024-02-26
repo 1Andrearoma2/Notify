@@ -2,11 +2,10 @@ from win10toast_click import ToastNotifier
 import webbrowser
 import spotify_link
 import sys
-
-warning = 'icons//alert.ico'
-
+import dow_ico
 
 def win10():
+    warning = dow_ico.warning
     def open_url():
         try:
             webbrowser.open_new(url)
@@ -27,7 +26,7 @@ def win10():
         artist = spotify_link.results['item']['artists'][0]['name']
         url = spotify_link.results['item']['external_urls']['spotify']
 
-        file_name = 'icons/logo.ico'
+        file_name = dow_ico.app_icon
         toaster = ToastNotifier()
         toaster.show_toast(
             name,
