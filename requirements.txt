@@ -1,0 +1,3 @@
+spotipy
+win10toast_click
+win11toast
